@@ -1,0 +1,18 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "72 kg",
+      "goal": "Marathon training meal plan with 4000+ calories and carbohydrate loading for glycogen replenishment",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan totals 4000+ calories across all meals and snacks",
+      "Emphasizes carbohydrates (55-65% of total calories) for glycogen replenishment",
+      "Includes 4 structured eating occasions: breakfast, lunch, dinner, and strategic snacks",
+      "Compact and concise format suitable for a 1-day plan"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ calories with emphasis on carbohydrate loading and glycogen replenishment across breakfast, lunch, dinner, and strategic snacks"
+  }
+]

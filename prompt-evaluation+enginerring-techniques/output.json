@@ -1,0 +1,23 @@
+[
+  {
+    "output": "# One-Day Marathon Training Meal Plan for Carbohydrate Loading\n\nHere is a one-day meal plan for an athlete aiming to build endurance and replenish glycogen stores for marathon training:\n\n* **Calorie Target:** Approximately 4,200 calories\n* **Macronutrient Breakdown:** Protein (140g), Fat (110g), Carbs (580g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with honey (40g), banana (150g), and whole milk (300g). Toast with almond butter (25g).\n    * Protein: 18g, Fat: 12g, Carbs: 110g\n\n* **Mid-Morning Snack (10:00 AM):** Sports drink (500ml) with electrolytes and carbohydrates, and an energy bar (65g).\n    * Protein: 8g, Fat: 8g, Carbs: 85g\n\n* **Lunch (1:00 PM):** Pasta (120g dry weight) with marinara sauce (150g), grilled chicken breast (150g), olive oil (15ml), and a side salad with mixed greens (120g) and olive oil dressing (15ml).\n    * Protein: 42g, Fat: 18g, Carbs: 110g\n\n* **Pre-Training Snack (3:30 PM):** White rice cakes (80g) with jam (40g) and banana (120g).\n    * Protein: 6g, Fat: 2g, Carbs: 95g\n\n* **Dinner (7:00 PM):** Baked sweet potato (300g), lean ground turkey (160g), steamed carrots (150g), and rice (80g dry weight cooked). Olive oil (10ml) for cooking.\n    * Protein: 38g, Fat: 12g, Carbs: 125g\n\n* **Evening Snack (9:30 PM):** Greek yogurt (200g) with granola (50g) and honey (20g).\n    * Protein: 22g, Fat: 58g, Carbs: 55g\n\nThis meal plan emphasizes high-quality carbohydrates (pasta, rice, sweet potatoes, oats) to maximize glycogen storage while providing adequate protein for muscle recovery and repair. The timing of meals supports both training performance and post-training recovery.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180 cm",
+        "weight": "72 kg",
+        "goal": "Marathon training meal plan with 4000+ calories and carbohydrate loading for glycogen replenishment",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan totals 4000+ calories across all meals and snacks",
+        "Emphasizes carbohydrates (55-65% of total calories) for glycogen replenishment",
+        "Includes 4 structured eating occasions: breakfast, lunch, dinner, and strategic snacks",
+        "Compact and concise format suitable for a 1-day plan"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-endurance athlete (marathon runner) requiring 4000+ calories with emphasis on carbohydrate loading and glycogen replenishment across breakfast, lunch, dinner, and strategic snacks"
+    },
+    "score": 7,
+    "reasoning": "The solution successfully meets all mandatory requirements with clear presentation of daily totals, macronutrient breakdown, and detailed meals with portions and timing. The carbohydrate loading strategy is appropriate at 55% of calories. However, there are minor arithmetic inconsistencies in the macronutrient calculations, particularly in the evening snack and overall totals, which slightly undermines accuracy. Despite these calculation issues, the core structure and content align well with the secondary criteria for a marathon training meal plan."
+  }
+]
